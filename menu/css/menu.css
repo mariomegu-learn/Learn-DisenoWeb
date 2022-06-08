@@ -1,0 +1,31 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Define la familia de fuentes para todo el documento */
+    background: #e8e8e8; /* Define el color del fondo para el Body*/
+}
+
+.menu{
+    list-style: none; /* Elimina las viñetas de las listas  */
+    padding: 0; /* Elimina el borde */
+    background: #092327; /* Define el color para el fondo de la seccion */
+    width: 90%; /* Define el campo maximo que va usar */
+    max-width: 1000px; /* Define la cantidad de pixeles maxima en pantalla */
+    margin: 20px auto; /* Centra el menu */
+}
+
+.menu li {
+    display: inline-block; /* Ubica los elementos de manera horizontal  */
+    text-align: center; /* Centra el texto */
+}
+
+.menu li a{
+    color: #fff;
+    text-decoration: none; /* Elimina lso efectos de hipervinculo  */
+    display: block; /* Ubica los elementos continuos  */
+    padding: 20px;
+}
+
+.menu li a:hover{ /* Efecto al pasar el puntero */
+    color: #bff5ff;
+    background: #ef8354 ;
+}
+
