@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms.js</title>
+
+    <!-- Fuentes personalizadas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <div class="contenedor">
+        <form action="" id="formulario" class="formulario" name="formulario">
+
+            <div class="contenedor-inputs">
+
+                <input type="text" id="nombre" class="nombre" name="nombre" placeholder="Nombre">
+                <input type="text" id="correo" class="correo" name="correo" placeholder="Correo">
+
+                <div class="sexo">
+                    <input type="radio" name="sexo" id="hombre" value="hombre">
+                    <label class="label-radio hombre" for="hombre">Hombre</label>
+                    <input type="radio" name="sexo" id="mujer" value="mujer">
+                    <label class="label-radio mujer" for="mujer">Mujer</label>
+                </div>
+
+                <div class="terminos">
+                    <input type="checkbox" name="terminos" id="terminos">
+                    <label for="terminos">Acepto Terminos y condiciones</label>
+                </div>
+
+                <ul class="error" id="error"></ul>
+
+            </div>
+
+            <input type="submit" class="btn" value="Registrate">
+
+        </form>
+    </div>
+
+    <script src="js/form.js"></script>
+</body>
+</html>
